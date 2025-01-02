@@ -1,71 +1,78 @@
-# Welcome to your Lovable project
+# The Fresher
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/29839f18-5f48-48c0-8045-9baf0896e49b
+We focused on creating a user-friendly and visually appealing app design that stays true to our initial concept.
 
-## How can I edit this code?
+### App Features:
 
-There are several ways of editing your application.
+1. **Home Page**: A welcoming entry point featuring the app's logo to establish a strong identity.
+2. **Pairing Page**: Provides a clear button for scanning nearby devices and displays a list of detected devices, ensuring users can easily select the correct one.
+3. **Search Page**: Offers a visually structured grid of fruits, including images and names, with the option to return to the Pairing Page if needed.
+4. **Waiting Page**: Designed with simplicity and clarity, instructing users to inject the device into the fruit.
+5. **Loading Page**: Engages users during data processing with an appealing animation.
+6. **Main Page**: Displays critical metrics like pH, methane levels, and humidity, alongside:
+   - A percentage bar for the fruit's status.
+   - Options to view the History Page or retake the test.
+7. **History Page**: Organizes past scans into an easy-to-read list, including fruit details, dates, and images, maintaining a clean and functional design.
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29839f18-5f48-48c0-8045-9baf0896e49b) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js & npm installed ([Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)).
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   ```sh
+   git clone <YOUR_GIT_URL>
+   ```
 
-Follow these steps:
+2. Navigate to the project directory:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```sh
+   cd <YOUR_PROJECT_NAME>
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```sh
+   npm install
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+4. Start the development server with auto-reloading:
 
-**Edit a file directly in GitHub**
+   ```sh
+   npm run dev
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### API Integration
 
-**Use GitHub Codespaces**
+To enable ML predictions in the app:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Navigate to the `api` folder in the repository.
+2. Run the Python file `apifinal`:
 
-## What technologies are used for this project?
+   ```sh
+   python apifinal.py
+   ```
 
-This project is built with .
+   Ensure the API is running to fetch predictions displayed on the Main Page.
 
+## Deployment
+
+To deploy the project:
+
+1. Follow the instructions in your preferred deployment platform.
+2. Ensure the API is hosted and accessible for live prediction results.
+
+---
+
+This project is powered by:
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/29839f18-5f48-48c0-8045-9baf0896e49b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
-"# The-Fresher" 
-"# The-Fresher" 
