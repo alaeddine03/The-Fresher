@@ -27,7 +27,7 @@ We focused on creating a user-friendly and visually appealing app design that st
 1. Clone the repository:
 
    ```sh
-   git clone <YOUR_GIT_URL>
+   git clone https://github.com/alaeddine03/The-Fresher.git
    ```
 
 2. Navigate to the project directory:
